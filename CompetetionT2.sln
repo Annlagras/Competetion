@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompetetionT2", "CompetetionT2.csproj", "{95675CF8-CB54-4755-9413-E913C4B01FE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pages", "Pages", "{EBBAFDD9-0256-4700-9807-1120B204CC51}"
+	ProjectSection(SolutionItems) = preProject
+		Edit.cs = Edit.cs
+		Login.cs = Login.cs
+		ManageListings.cs = ManageListings.cs
+		Shareskill.cs = Shareskill.cs
+		View.cs = View.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestClass", "TestClass", "{8C3076C9-CA9C-4ACD-AE18-D262AC2A02C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{68B01E46-8FDE-4251-AFE5-ED25BEFF4208}"
+	ProjectSection(SolutionItems) = preProject
+		wait.cs = wait.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95675CF8-CB54-4755-9413-E913C4B01FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95675CF8-CB54-4755-9413-E913C4B01FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95675CF8-CB54-4755-9413-E913C4B01FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95675CF8-CB54-4755-9413-E913C4B01FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D8AEA1C-8804-4AD2-A508-FEF0E06B4BAF}
+	EndGlobalSection
+EndGlobal
